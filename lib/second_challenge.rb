@@ -1,4 +1,4 @@
-require "pry"
+#require "pry"
 
 def second_challenge
   groceries = {
@@ -10,8 +10,7 @@ def second_challenge
 
 
   groceries.each do |types, food|
-    binding.pry
-    types.values
+    food.values
     
   end 
 end
