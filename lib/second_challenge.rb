@@ -13,6 +13,7 @@ def second_challenge
     group << food
     
   end 
+  group.flatten
   binding.pry
   group.flatten 
 end
