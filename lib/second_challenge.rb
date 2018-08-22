@@ -10,8 +10,8 @@ def second_challenge
 
 
   groceries.each do |types, food|
-    binding.pry
     types.values
+    binding.pry
   end 
 end
 
