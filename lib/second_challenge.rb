@@ -9,7 +9,7 @@ def second_challenge
   }
 
   group = []
-  groceries.each do |categories, food|
+  groceries.each do |category, food|
     group << food
     binding.pry
   end 
