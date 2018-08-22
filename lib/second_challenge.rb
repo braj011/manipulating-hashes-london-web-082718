@@ -1,4 +1,4 @@
-#require "pry"
+require "pry"
 
 def second_challenge
   groceries = {
@@ -8,9 +8,10 @@ def second_challenge
    grains: ["rice", "pasta"]
   }
 
-
+  group = []
   groceries.each do |categories, food|
-    categories.values
+    group << food
+    binding.pry
   end 
 end
 
