@@ -24,14 +24,9 @@ end
       # this is the bit I don't get 
       doesn't work 
       basically trying to delete the strawberry element in the array of values for the :favorite_icecream_flavors key
-        
-just strawvvery value which is in an array
-
-... maybe ... pop or one of thse type of thigns
-yeah it'd do the last 
-
-a = [2,4,6,3,8]
-value.delete("strawberry")   ??
+ 
+ 
+      
 
 
 
