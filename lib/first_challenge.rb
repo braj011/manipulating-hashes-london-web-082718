@@ -1,7 +1,7 @@
 
 
 def first_challenge
-  contacts = {
+  contacts = { 
     "Jon Snow" => {
       name: "Jon",
       email: "jon_snow@thewall.we", 
@@ -14,17 +14,14 @@ def first_challenge
       favorite_icecream_flavors: ["strawberry", "cookie dough", "mint chip"]
     }
   }
-  new = []
   contacts["Freddy Mercury"].collect do |attribute, value|
     if attribute == :favorite_icecream_flavors
      # value.delete("strawberry")
-      oh right okay = value - ["strawberry"]
     end 
   end
-  new 
+  contacts
 end 
 
-right 
 
 
 =begin
