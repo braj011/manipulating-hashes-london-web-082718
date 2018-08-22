@@ -10,7 +10,7 @@ def second_challenge
 
 
   groceries.each do |types, food|
-    types.values
+    food.flatten.values
     
   end 
 end
