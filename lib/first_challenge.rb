@@ -20,6 +20,10 @@ def first_challenge
   contacts
 end 
       
+      
+      # this is the bit I don't get 
+      doesn't work 
+      basically trying to delete the strawberry element in the array of values for the :favorite_icecream_flavors key
         
 
 
