@@ -14,7 +14,7 @@ def second_challenge
     
   end 
   binding.pry
-  group 
+  group.flatten 
 end
 
 =begin 
