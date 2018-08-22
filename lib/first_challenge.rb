@@ -14,15 +14,17 @@ def first_challenge
       favorite_icecream_flavors: ["strawberry", "cookie dough", "mint chip"]
     }
   }
+  new = []
   contacts["Freddy Mercury"].collect do |attribute, value|
     if attribute == :favorite_icecream_flavors
      # value.delete("strawberry")
-      new = value - ["strawberry"]
+      oh right okay = value - ["strawberry"]
     end 
   end
   new 
 end 
 
+right 
 
 
 =begin
