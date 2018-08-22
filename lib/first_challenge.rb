@@ -22,6 +22,10 @@ def first_challenge
   contacts
 end 
   
+so is that basically because we had to delete the value
+and not actually edit the key which was immutable anyway, i.e. the ice cream fkavour 
+okay sure, i did see that when i got to that one, but wasn;t sure what to then delete
+
 
 
 
