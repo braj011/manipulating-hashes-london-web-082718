@@ -1,3 +1,5 @@
+require "pry"
+
 def first_challenge
   contacts = {
     "Jon Snow" => {
@@ -14,19 +16,13 @@ def first_challenge
   }
   contacts["Freddy Mercury"].collect do |attribute, value|
     if attribute == :favorite_icecream_flavors
+     binding.pry
       attribute.delete_if{|flav| flav =="strawberry"}
     end 
   end
   contacts
 end 
-      
-      
-      # this is the bit I don't get 
-      doesn't work 
-      basically trying to delete the strawberry element in the array of values for the :favorite_icecream_flavors key
- 
- 
-      
+  
 
 
 
