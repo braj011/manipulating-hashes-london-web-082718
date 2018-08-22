@@ -5,14 +5,10 @@ def second_challenge
    meat: ["chicken", "steak", "salmon"],
    grains: ["rice", "pasta"]
   }
-  x = []
 
-  #code your solution here!
 
   groceries.each do |types, food|
-    x = types.values
-    x.flatten
-    
+    types.values
   end 
 end
 
