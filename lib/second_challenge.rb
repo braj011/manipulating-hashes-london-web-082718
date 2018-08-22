@@ -5,6 +5,7 @@ def second_challenge
    meat: ["chicken", "steak", "salmon"],
    grains: ["rice", "pasta"]
   }
+  x = []
 
   #code your solution here!
 
